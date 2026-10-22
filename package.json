@@ -1,0 +1,16 @@
+{
+  "name": "pi-tps",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-response token and speed statistics in the Pi transcript, not the footer.",
+  "type": "module",
+  "repository": "https://github.com/maximkr/pi-tps",
+  "keywords": ["pi-package", "pi-extension", "tokens", "statistics"],
+  "pi": { "extensions": ["./index.ts"] },
+  "scripts": { "test": "node --test tests/*.test.mjs" },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
